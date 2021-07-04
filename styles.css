@@ -1,0 +1,40 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+h1 {
+    text-align: center;
+    color:CornflowerBlue ;
+    font-weight: 800;
+}
+h2{
+    text-align: center;
+    color: brown;
+}
+.subtitle{
+    margin: 100px 0 ;
+}
+
+.table{
+    text-align: center;
+    /* center content */
+    margin: 0 auto;
+}
+
+.table td {
+    padding: 20px;
+    border-bottom: 2px solid black;  
+    font-weight:600; 
+}
+.header-table th {
+    color:white;
+    background-color:cyan;
+    font-weight: 900;
+    padding: 20px;
+    width: 400px;
+}
+.code {
+    color: crimson;
+    font-size:xx-large;
+    font-weight: 900 !important; 
+}
