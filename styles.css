@@ -40,3 +40,39 @@ h2{
     font-size:xx-large;
     font-weight: 900 !important; 
 }
+
+
+ul{
+    list-style: none;
+}
+.breadcrumb li{
+    color: #fff;
+    background:cornflowerblue;
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 0 5px;
+    float: left;
+}
+
+.breadcrumb li::before,
+.breadcrumb li::after {
+  content: "";
+  position: absolute;
+  border-color:cornflowerblue;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb li::before {
+    left: -10px;
+    border-left-color: transparent;
+  }
+  .breadcrumb li::after {
+    left: 100%;
+    border-color:transparent;
+ 
+ }
